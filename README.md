@@ -48,3 +48,17 @@ Este grupo trata sobre composição de classes e objetos, o uso da herança para
 ## [Behavioral (ou Comportamental):](src/GSoares/DesignPatterns/Behavioral)
 
 Este grupo trata sobre comunicação entre objetos das classes, ou seja, como estes objetos devem se "comportar" para poderem se comunicar.
+
+* [Chain Of Responsibility](src/GSoares/DesignPatterns/Behavioral/ChainOfResponsibility)
+* [Command](src/GSoares/DesignPatterns/Behavioral/Command)
+* [Interpreter](src/GSoares/DesignPatterns/Behavioral/Interpreter)
+* [Iterator](src/GSoares/DesignPatterns/Behavioral/Iterator)
+* [Mediator](src/GSoares/DesignPatterns/Behavioral/Mediator)
+* [Memento](src/GSoares/DesignPatterns/Behavioral/Memento)
+* [Null Object](src/GSoares/DesignPatterns/Behavioral/NullObject)
+* [Observer](src/GSoares/DesignPatterns/Behavioral/Observer)
+* [State](src/GSoares/DesignPatterns/Behavioral/State)
+* [Strategy](src/GSoares/DesignPatterns/Behavioral/Strategy)
+* [Template Method](src/GSoares/DesignPatterns/Behavioral/TemplateMethod)
+* [Visitor](src/GSoares/DesignPatterns/Behavioral/Visitor)
+
