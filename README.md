@@ -1,8 +1,8 @@
-#Design Patterns#
+# Design Patterns
 
 Ao desenvolver software nos deparamos com diversos problemas, que, embora muitas vezes sejam de necessidades
 distintas, possuem soluções comuns. Mas como saber qual solução "comum" usar para atender cada problema?
-Foi para isso que surjiram os padrões de projeto!
+Foi para isso que surgiram os padrões de projeto!
 
 
 # Quando falamos de engenharia de software, um "Design Pattern" ou Padrão de Projeto é:
@@ -21,6 +21,14 @@ Para isto, utilizaremos como linguagem de exemplo o PHP (pois é linguagem que m
 
 Os Design Patterns estão separados em 3 grandes grupos. Vamos conhecê-los:
 
-* Creational (ou Criacional):
-* Structural (ou estrutural):
-* Behavioral (ou Comportamental):
+## Creational (ou Criacional):
+
+Este grupo trata sobre a instanciação de classes, como devemos criá-las e como devemos utilizar os objetos instanciados e o uso correto de heranças.
+
+## Structural (ou Estrutural):
+
+Este grupo trata sobre composição de classes e objetos, o uso da herança para compor interfaces e melhores formas de construir objetos para adição de novas funcionalidades.
+
+## Behavioral (ou Comportamental):
+
+Este grupo trata sobre comunicação entre objetos das classes, ou seja, como estes objetos devem se "comportar" para poderem se comunicar.
