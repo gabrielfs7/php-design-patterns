@@ -1,0 +1,25 @@
+{
+    "name": "gabrielfs7/php-design-patterns",
+    "description": "Exemplos de Design Patterns em PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Felipe Soares",
+            "email": "gabrielfs7@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "4.0.x",
+        "squizlabs/php_codesniffer" : "*",
+        "phpmd/phpmd" : "*",
+        "symfony/http-foundation": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "GSoares\\RAP\\": "src/"
+        }
+    }
+}
