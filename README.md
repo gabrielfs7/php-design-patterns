@@ -25,16 +25,25 @@ Os Design Patterns estão separados em 3 grandes grupos. Vamos conhecê-los:
 
 Este grupo trata sobre a instanciação de classes, como devemos criá-las e como devemos utilizar os objetos instanciados e o uso correto de heranças.
 
-* [Abstract Factory](src/GSoares/DesignPatterns/AbstractFactory)
-* [Builder](src/GSoares/DesignPatterns/Builder)
-* [Factory Method](src/GSoares/DesignPatterns/FactoryMethod)
-* [Object Pool](src/GSoares/DesignPatterns/ObjectPool)
-* [Prototype](src/GSoares/DesignPatterns/Prototype)
-* [Singleton](src/GSoares/DesignPatterns/Singleton)
+* [Abstract Factory](src/GSoares/DesignPatterns/Creational/AbstractFactory)
+* [Builder](src/GSoares/DesignPatterns/Creational/Builder)
+* [Factory Method](src/GSoares/DesignPatterns/Creational/FactoryMethod)
+* [Object Pool](src/GSoares/DesignPatterns/Creational/ObjectPool)
+* [Prototype](src/GSoares/DesignPatterns/Creational/Prototype)
+* [Singleton](src/GSoares/DesignPatterns/Creational/Singleton)
 
-## [Structural (ou Estrutural):](src/GSoares/DesignPatterns/Strtuctural)
+## [Structural (ou Estrutural):](src/GSoares/DesignPatterns/Structural)
 
 Este grupo trata sobre composição de classes e objetos, o uso da herança para compor interfaces e melhores formas de construir objetos para adição de novas funcionalidades.
+
+* [Adapter](src/GSoares/DesignPatterns/Structural/Adapter)
+* [Bridge](src/GSoares/DesignPatterns/Structural/Bridge)
+* [Composite](src/GSoares/DesignPatterns/Structural/Composite)
+* [Decorator](src/GSoares/DesignPatterns/Structural/Decorator)
+* [Facade](src/GSoares/DesignPatterns/Structural/Facade)
+* [Flyweight](src/GSoares/DesignPatterns/Structural/Flyweight)
+* [Private Class Data](src/GSoares/DesignPatterns/Structural/PrivateClassData)
+* [Proxy](src/GSoares/DesignPatterns/Structural/Proxy)
 
 ## [Behavioral (ou Comportamental):](src/GSoares/DesignPatterns/Behavioral)
 
