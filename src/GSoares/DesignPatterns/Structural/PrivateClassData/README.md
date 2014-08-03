@@ -1,0 +1,1 @@
+#Private Class Data - Design Patterns#
