@@ -21,14 +21,21 @@ Para isto, utilizaremos como linguagem de exemplo o PHP (pois é linguagem que m
 
 Os Design Patterns estão separados em 3 grandes grupos. Vamos conhecê-los:
 
-## Creational (ou Criacional):
+## [Creational (ou Criacional):](src/GSoares/DesignPatterns/Creational)
 
 Este grupo trata sobre a instanciação de classes, como devemos criá-las e como devemos utilizar os objetos instanciados e o uso correto de heranças.
 
-## Structural (ou Estrutural):
+* [Abstract Factory](src/GSoares/DesignPatterns/AbstractFactory)
+* [Builder](src/GSoares/DesignPatterns/Builder)
+* [Factory Method](src/GSoares/DesignPatterns/FactoryMethod)
+* [Object Pool](src/GSoares/DesignPatterns/ObjectPool)
+* [Prototype](src/GSoares/DesignPatterns/Prototype)
+* [Singleton](src/GSoares/DesignPatterns/Singleton)
+
+## [Structural (ou Estrutural):](src/GSoares/DesignPatterns/Strtuctural)
 
 Este grupo trata sobre composição de classes e objetos, o uso da herança para compor interfaces e melhores formas de construir objetos para adição de novas funcionalidades.
 
-## Behavioral (ou Comportamental):
+## [Behavioral (ou Comportamental):](src/GSoares/DesignPatterns/Behavioral)
 
 Este grupo trata sobre comunicação entre objetos das classes, ou seja, como estes objetos devem se "comportar" para poderem se comunicar.
