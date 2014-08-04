@@ -1,6 +1,12 @@
 <?php
 namespace GSoares\DesignPatterns\Structural\Adapter;
 
+/**
+ * Sample 1
+ *
+ * Adapt an old phone number class to a new one that provides separate phone number codes.
+ */
+
 class LegacyPhoneNumber
 {
     private $number;
@@ -43,6 +49,8 @@ class PhoneNumberAdapter
 
 function runAdapter()
 {
+    echo "Sample 1 - PhoneNumberAdapter\n\n";
+
     $legacyNumber = new LegacyPhoneNumber('+55 (48) 3222-2222');
 
     echo "Set legacy phone number " . $legacyNumber->getNumber() . "\n";
@@ -53,4 +61,6 @@ function runAdapter()
     echo "Country code: " . $newNumber->getCountryCode() . "\n";
     echo "Area code: " . $newNumber->getAreaCode() . "\n";
     echo "Number: " . $newNumber->getNumber();
+
+    echo "Sample 2 - PhoneNumberAdapter\n\n";
 }
