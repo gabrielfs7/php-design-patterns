@@ -53,7 +53,7 @@
             background: #EAEAEA;
             padding: 20px;
             background: #000;
-            font-size: 40px;
+            font-size: 15px;
         }
     </style>
 </head>
@@ -103,7 +103,12 @@ $dir = realpath(__DIR__ . '/../src/GSoares/DesignPatterns');
             }
 
             if (function_exists($function)) {
+                ob_start();
                 $function();
+
+                $content = ob_get_clean();
+
+                echo nl2br($content);
             } else {
                 echo 'Exemplo não implementado ainda... :( <br/><br/>';
                 echo 'Implemente a função <em>"' . $function . '()"</em> em:<br/><br/><em>"' . $sampleFile . '"</em>';
