@@ -61,6 +61,4 @@ function runAdapter()
     echo "Country code: " . $newNumber->getCountryCode() . "\n";
     echo "Area code: " . $newNumber->getAreaCode() . "\n";
     echo "Number: " . $newNumber->getNumber();
-
-    echo "Sample 2 - PhoneNumberAdapter\n\n";
 }
